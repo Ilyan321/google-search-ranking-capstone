@@ -1,0 +1,46 @@
+[
+  {
+    "Model": "Logistic Regression",
+    "ROC-AUC": 0.8856,
+    "PR-AUC": 0.8002,
+    "Precision@10": 0.9,
+    "Precision@20": 0.95,
+    "Precision@50": 0.98,
+    "Precision@100": 0.99,
+    "Recall@50": 0.0043,
+    "Brier Score": 0.1346
+  },
+  {
+    "Model": "Random Forest",
+    "ROC-AUC": 0.9993,
+    "PR-AUC": 0.9988,
+    "Precision@10": 1.0,
+    "Precision@20": 1.0,
+    "Precision@50": 1.0,
+    "Precision@100": 1.0,
+    "Recall@50": 0.0044,
+    "Brier Score": 0.0444
+  },
+  {
+    "Model": "HistGradientBoosting",
+    "ROC-AUC": 1.0,
+    "PR-AUC": 0.9999,
+    "Precision@10": 1.0,
+    "Precision@20": 1.0,
+    "Precision@50": 1.0,
+    "Precision@100": 1.0,
+    "Recall@50": 0.0044,
+    "Brier Score": 0.0023
+  },
+  {
+    "Model": "Rule Heuristic Baseline",
+    "ROC-AUC": 0.7416,
+    "PR-AUC": 0.6011,
+    "Precision@10": 0.7,
+    "Precision@20": 0.7,
+    "Precision@50": 0.76,
+    "Precision@100": 0.78,
+    "Recall@50": 0.0033,
+    "Brier Score": 0.2236
+  }
+]
